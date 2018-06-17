@@ -43,7 +43,7 @@ angular.module('StockMarket', [
     })
 
   .state('app.stock', {
-    url: '/Stock',
+    url: '/:stockTicker',
     views: {
       'menuContent': {
         templateUrl: 'templates/stock.html',
